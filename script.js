@@ -1,8 +1,12 @@
 
 $(document).ready(function(){
-
+    
 // Dislpay current date and time
-$("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
+function updateTime() {
+    var date = moment().format('MMMM Do YYYY, h:mm:ss a');
+    $("#currentDay").text(date);
+}
+setInterval(updateTime, 1000);
 
 // Save button
 $(".saveBtn").on("click", function(){
