@@ -20,15 +20,15 @@ Simple calendar application that allows the user to save events for an nine-hour
 ### This project has the following files:
 * One HTML Page
   * Index.html
-    * Contains:
-      \- 9 input groups
+    * Contains :
+      * 9 input groups
 * One Css Page
   * Style.css
-    * Contains: 
-      \- Styling for attributes and buttons 
+    * Contains : 
+      * Styling for attributes and buttons 
 * One Javascript Page
   * Script.js
-    * Contains:
+    * Contains :
        * Variables 
        * Event listeners 
        * if statements 
