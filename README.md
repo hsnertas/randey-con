@@ -29,7 +29,7 @@ Simple calendar application that allows the user to save events for an nine-hour
 * One Javascript Page
   * Script.js
     * Contains:
-       11 Variables 
+       \- Variables 
        \- Event listeners 
        \- if statements 
        \- For Loop 
