@@ -1,9 +1,9 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-- [Day Planner Github IO]()
+- [Day Planner Github IO](https://hsnertas.github.io/randey-con/)
 - [Day Planner Demo Video](https://drive.google.com/file/d/11CZ9infMqpM97DwG66dvbOJZkGOzeTkJ/view)
 
--- 
+--- 
 
 ### Summary
 Simple calendar application that allows the user to save events for an nine-hour work day.
