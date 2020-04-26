@@ -22,7 +22,7 @@ Simple calendar application that allows the user to save events for an nine-hour
   * Index.html
     * Contains :
       * 9 input groups
-* Two Css Page
+* Two Css Pages
   * Style.css
     * Contains : 
       * Styling for attributes and buttons
