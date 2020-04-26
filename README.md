@@ -31,7 +31,7 @@ Simple calendar application that allows the user to save events for an nine-hour
     * Contains :
        * Variables 
        * Event listeners 
-       * if statements 
+       * If statements 
        * For Loop 
        * Functions 
        * Local Storage set and get        
