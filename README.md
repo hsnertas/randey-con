@@ -11,7 +11,7 @@ Simple calendar application that allows the user to save events for an nine-hour
 ### This project has the following features:
 * A header with local time that updates live
 * Save buttons that save items to local storage
-* Delete buttons that delete items to local storage
+* Delete buttons that delete items from local storage
 * Attribute changes for hour by hour time tracking
   * Gray is past the current hour
   * Flashing red is on the current hour
@@ -29,7 +29,7 @@ Simple calendar application that allows the user to save events for an nine-hour
 * One Javascript Page
   * Script.js
     * Contains:
-       \- Variables 
+       11 Variables 
        \- Event listeners 
        \- if statements 
        \- For Loop 
