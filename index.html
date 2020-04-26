@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap for layout -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <!-- Reset css link --> 
+    <link rel="stylesheet" href="assets/reset.css" />
+    <!-- Style css link -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!--Title-->
+    <title>Work Day Scheduler</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
+    <!-- Container -->
+    <div class="container">
+        <!-- 9AM -->
+        <div class="input-group" data-hour="9">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">09 AM</span>
+            </div>
+            <textarea class="form-control" name="9" id="form9" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>
+        </div>
+        <!-- 10AM -->
+        <div class="input-group" data-hour="10">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">10 AM</span>
+            </div>
+            <textarea class="form-control" name="10" id="form10" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>   
+        </div>
+        <!-- 11AM -->
+        <div class="input-group" data-hour="11" >
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">11 AM</span>
+            </div>
+            <textarea class="form-control" name="11" id="form11" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>
+        </div>
+        <!-- 12PM -->
+        <div class="input-group" data-hour="12">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">12 PM</span>
+            </div>
+            <textarea class="form-control" name="12" id="form12" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>
+        </div>
+        <!-- 1PM -->
+        <div class="input-group" data-hour="1">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">01 PM</span>
+            </div>
+            <textarea class="form-control" name="13" id="form1" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>
+        </div>
+        <!-- 2PM -->
+        <div class="input-group" data-hour="2">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">02 PM</span>
+            </div>
+            <textarea class="form-control" name="14" id="form2" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>
+        </div>
+        <!-- 3PM -->
+        <div class="input-group" data-hour="3">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">03 PM</span>
+            </div>
+            <textarea class="form-control" name="15" id="form3" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>  
+        </div>
+        <!-- 4PM -->
+        <div class="input-group" data-hour="4">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">04 PM</span>
+            </div>
+            <textarea class="form-control" name="16" id="form4" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button>   
+        </div>
+        <!-- 5PM -->
+        <div class="input-group" data-hour="5">
+            <div class="input-group-prepend">
+                <span class="input-group-text hour">05 PM</span>
+            </div>
+            <textarea class="form-control" name="17" id="form5" rows="2"></textarea>
+            <button class="btn saveBtn"><i class="far fa-save"></i></button>
+            <button class="btn trashBtn"><i class="far fa-trash-alt"></i></button> 
+        </div>
+    </div>
+
+
+    <!-- Jquery link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Moment JS link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- Script link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
