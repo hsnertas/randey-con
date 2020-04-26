@@ -29,9 +29,9 @@ Simple calendar application that allows the user to save events for an nine-hour
 * One Javascript Page
   * Script.js
     * Contains:
-       - Variables 
-       - Event listeners 
-       - if statements 
-       - For Loop 
-       - Functions 
-       - Local Storage set and get        
+       * Variables 
+       * Event listeners 
+       * if statements 
+       * For Loop 
+       * Functions 
+       * Local Storage set and get        
