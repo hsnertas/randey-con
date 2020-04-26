@@ -34,4 +34,4 @@ Simple calendar application that allows the user to save events for an nine-hour
        * If statements 
        * For Loop 
        * Functions 
-       * Local Storage set and get        
+       * Local Storage set, get and remove       
