@@ -8,7 +8,7 @@
 ### Summary
 Simple calendar application that allows the user to save events for an nine-hour work day.
 
-### This project has the following features:
+### This project has the following features :
 * A header with local time that updates live
 * Save buttons that save items to local storage
 * Delete buttons that delete items from local storage
@@ -17,7 +17,7 @@ Simple calendar application that allows the user to save events for an nine-hour
   * Flashing red is on the current hour
   * Green is before the current hour
   
-### This project has the following files:
+### This project has the following files :
 * One HTML Page
   * Index.html
     * Contains :
